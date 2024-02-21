@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "../Elements/Contact.css";
 import { MdCall, MdMail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
-import axios from "axios";
+// import axios from "axios";
 // import useRazorpay from "react-razorpay";
 
 const Contact = () => {
