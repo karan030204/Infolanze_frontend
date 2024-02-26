@@ -11,6 +11,7 @@ import "@splidejs/react-splide/css/sea-green";
 import "@splidejs/react-splide/css/core";
 import "../../Elements/Carousel.css";
 import { carousel_img1, waptab_img } from "../../images/data";
+import Carousel_1 from "../../images/carousel-1.jpg";
 
 const Hero_Carousel = () => {
   return (
@@ -31,18 +32,19 @@ const Hero_Carousel = () => {
       aria-label="My Favorite Images"
       className="mx-auto "
     >
-      <SplideSlide>
+      <SplideSlide className="">
         <img
+          className=""
           src={carousel_img1}
           alt="Image 1"
         />
       </SplideSlide>
-      <SplideSlide>
+      {/* <SplideSlide>
         <img
           src={carousel_img1}
           alt="Image 2"
         />
-      </SplideSlide>
+      </SplideSlide> */}
       <SplideSlide>
         <img
           src={waptab_img}

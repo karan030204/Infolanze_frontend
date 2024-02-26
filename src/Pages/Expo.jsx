@@ -6,7 +6,7 @@ const Expo = () => {
   return (
     <>
     <Expo_Carousel/>
-    <Expo_Videos/>
+    {/* <Expo_Videos/> */}
     </>
   )
 }

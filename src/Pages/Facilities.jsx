@@ -110,7 +110,7 @@ const Facilities = () => {
           </div>
       </section>
 
-      <section className="fac-photos-wrapper relative">
+      <section className="fac-photos-wrapper pb-5 relative">
         <Photos />
       </section>
       </div>

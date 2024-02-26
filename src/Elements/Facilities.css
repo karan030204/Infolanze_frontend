@@ -14,14 +14,13 @@
     position: relative;
     width: 400px;
     overflow: hidden;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .fac-ImgWrapper img{
     width: 100%;
     display: block;
     transition: transform .3s ease,-webkit-transform .3s ease-in-out;
-    
     
 }
 

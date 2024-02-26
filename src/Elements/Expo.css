@@ -18,12 +18,12 @@
     
 }
 
-.expo-content-wrapper .expo-content{   
-}
+/* .expo-content-wrapper .expo-content{   
+} */
 
-.expo-content-wrapper .expo-dates{
+/* .expo-content-wrapper .expo-dates{
 
-}
+} */
 
 .video-toggle{
     display: flex;
@@ -75,4 +75,48 @@
 .videos-list .vd{
     width: 350px;
 }
+
+.title-underline-3{
+    position: relative;
+}
+
+.title-underline-3::after{
+    content: "";
+    position: absolute;
+    width: 230px;
+    border-top: solid 3px rgb(3,74,102) ;
+    left: 42vw;
+    bottom: -17px;
+    border-radius: 50%;
+    height: 8px;
+    
+}
+
+@media (max-width: 990px) {
+    .title-underline-3::after{
+        content: "";
+        position: absolute;
+        width: 230px;
+        border-top: solid 3px rgb(3,74,102) ;
+        left: 35vw;
+        bottom: -17px;
+        border-radius: 50%;
+        height: 8px;
+        
+    }
+  }
+
+@media (max-width: 600px) {
+    .title-underline-3::after{
+        content: "";
+        position: absolute;
+        width: 230px;
+        border-top: solid 3px rgb(3,74,102) ;
+        left: 22vw;
+        bottom: -17px;
+        border-radius: 50%;
+        height: 8px;
+        
+    }
+  }
 

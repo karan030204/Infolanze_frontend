@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <>
       <footer class="footer-section text-white  body-font">
-        <div class="container px-5 py-16 mx-auto">
+        <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-wrap justify-between md:text-left text-center order-first">
-            <div class="lg:w-2/4 md:w-1/2 w-full px-4">
+            <div class="lg:w-2/4 md:w-1/2 w-full px-4 pt-5">
               <h2 class="footer-about-title tracking-widest  mb-3">About us</h2>
               <p className="footer-about-content">
                 WAPTAG, is a collective of water industry professionals and
@@ -16,7 +16,7 @@ const Footer = () => {
                 purification, treatment, filtration, and wastewater management.
               </p>
             </div>
-            <div class="lg:w-2/4 md:w-1/2 w-full px-4">
+            <div class="lg:w-2/4 md:w-1/2 w-full px-4 pt-5">
               <h2 class="address-title  tracking-widest text-sm mb-3">
                 Address
               </h2>

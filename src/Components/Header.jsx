@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../Elements/Header.css";
 import { logo_img } from "../images/data";
+// import logo from "../images/waptab-logo.jpg";
 
 
 const Header = () => {

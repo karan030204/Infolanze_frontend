@@ -16,9 +16,11 @@ import Activities from "./Pages/Activities";
 import Committee from "./Pages/Committee";
 import Contact from "./Pages/Contact";
 import Expo from "./Pages/Expo";
-import Facilities from "./Pages/Facilities";
+// import Facilities from "./Pages/Facilities";
 import Form from "./Pages/Form";
 import Home from "./Pages/Home";
+import Main_Header from "./Components/Main_Header";
+import Join_Waptab from "./Components/Join_Waptab/Join_Waptab";
 
 
 export const Pdf_Context = createContext("dinner");
@@ -51,7 +53,8 @@ useEffect(() => {
   return (
     <>
       <Router>
-        <Header />
+        {/* <Header /> */}
+        <Main_Header />
         <Pdf_Context.Provider value={{ pdfData, setPdfData }}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -60,7 +63,8 @@ useEffect(() => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/expo" element={<Expo />} />
             <Route path="/committee" element={<Committee />} />
-            <Route path="/facilities" element={<Facilities />} />
+            <Route path="/join_waptab" element={<Join_Waptab />} />
+            {/* <Route path="/facilities" element={<Facilities />} /> */}
             <Route path="/form" element={<Form />} />
             <Route path="/pdf" element={<PDF />} />
 

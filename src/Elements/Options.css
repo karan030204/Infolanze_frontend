@@ -2,11 +2,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 8px;
     width: fit-content;
     flex-grow: 1;
     align-items: center;
-    margin: 40px;
+    /* margin: 40px; */
 }
 
 .option-logo{
